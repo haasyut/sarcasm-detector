@@ -1,0 +1,47 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+.env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyTorch checkpoints and saved models
+*.pt
+*.pth
+
+# outputs
+outputs/
+!outputs/eval/
+
+# Transformers cache
+.cache/
+huggingface/
+
+# Dataset / raw data files
+data/
+!data/train.csv
+!data/val.csv
+
+# Matplotlib cache
+.matplotlib/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Streamlit specific
+.streamlit/
+
+# Python egg metadata
+*.egg-info/
+dist/
+build/
